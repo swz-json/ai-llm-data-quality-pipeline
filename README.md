@@ -1,17 +1,18 @@
-AI-Powered E-commerce Data Quality Pipeline
+# AI-Powered E-commerce Data Quality Pipeline
 
-Pipeline complet de qualité de données + validation LLM + dashboard analytique
+### Pipeline complet de qualité de données + validation LLM + dashboard analytique
 
-🔗 Figma (Dashboard + Architecture interactive)
-👉 https://www.figma.com/make/v0DRrtrvwKEjx9iA1PZjNa/Confetti-Explosion-on-Click?node-id=0-1&p=f&t=FtZFFkbh4LwivS3J-0&fullscreen=1
+### 🔗 Figma (Dashboard + Architecture interactive)
+#### -> https://www.figma.com/make/v0DRrtrvwKEjx9iA1PZjNa/Confetti-Explosion-on-Click?node-id=0-1&p=f&t=FtZFFkbh4LwivS3J-0&fullscreen=1
 
-📌 Aperçu du Projet
+
+## 📌 Aperçu du Projet
 
 Ce projet met en place un pipeline de qualité de données moderne pour un site e-commerce, intégrant :
 
 ➡️ Ingestion → Nettoyage → Validation LLM → Dashboard analytique
 
-Le pipeline :
+## Le pipeline :
 
 Charge automatiquement les données brutes (clients, produits, commandes)
 
@@ -27,12 +28,12 @@ Fournit une architecture professionnelle (documentée dans Figma)
 
 Ce projet démontre des compétences en Data Engineering, LLM appliqué, analyse métier, automatisation et visualisation avancée.
 
-🧱 Architecture du Pipeline
+## Architecture du Pipeline
 
 🔗 Voir l’architecture détaillée sur Figma
-👉 https://www.figma.com/make/v0DRrtrvwKEjx9iA1PZjNa/Confetti-Explosion-on-Click?node-id=0-1&p=f&t=FtZFFkbh4LwivS3J-0&fullscreen=1
+-> https://www.figma.com/make/v0DRrtrvwKEjx9iA1PZjNa/Confetti-Explosion-on-Click?node-id=0-1&p=f&t=FtZFFkbh4LwivS3J-0&fullscreen=1
 
-Architecture du système :
+## Architecture du système :
 
 data/raw : données brutes
 
@@ -48,14 +49,14 @@ data/validated : anomalies + rapport narratif LLM
 
 app/dashboard.py : visualisation Streamlit
 
-✨ Fonctionnalités Clés
-📥 1. Ingestion Automatique
+## ✨ Fonctionnalités Clés
+### 📥 1. Ingestion Automatique
 
 Chargement sécurisé des fichiers clients / produits / commandes
 
 Standardisation des types de données
 
-🧹 2. Nettoyage & Qualité de Données
+### 🧹 2. Nettoyage & Qualité de Données
 
 Détection de valeurs manquantes
 
@@ -65,7 +66,7 @@ Outliers et montants incohérents
 
 Génération d’un dataset nettoyé exploitable
 
-🤖 3. Validation LLM (OpenAI GPT-4)
+### 🤖 3. Validation LLM (OpenAI GPT-4)
 
 Le LLM produit automatiquement :
 
@@ -77,12 +78,12 @@ Recommandations stratégiques
 
 Impact business estimé
 
-📌 Exemple :
+### 📌 Exemple :
 
 “Taux de conformité : 94,8%, amélioration de 2,1%.
 47 anomalies détectées, principalement sur quantités et valeurs manquantes.”
 
-📊 4. Dashboard Analytique (Streamlit)
+### 📊 4. Dashboard Analytique (Streamlit)
 
 KPIs affichés :
 
@@ -104,10 +105,10 @@ Tableau des anomalies détectées
 
 Aperçu des commandes nettoyées
 
-📷 Aperçu du Dashboard
+### 📷 Aperçu du Dashboard
 (les images dans ton repo seront automatiquement affichées ici après upload)
 
-📁 Structure du Projet
+#  📁 Structure du Projet
 ai-llm-data-quality-pipeline/
 │
 ├── app/
@@ -125,7 +126,7 @@ ai-llm-data-quality-pipeline/
 ├── test_llm.py
 └── README.md
 
-🛠️ Technologies Utilisées
+## 🛠️ Technologies Utilisées
 
 Python 3.10+
 
@@ -139,19 +140,19 @@ Matplotlib / Plotly
 
 Figma (architecture + UI design)
 
-▶️ Comment Exécuter le Projet
-1. Installer les dépendances
+## ▶️ Comment Exécuter le Projet
+### 1. Installer les dépendances
 pip install -r requirements.txt
 
-2. Lancer le pipeline
+### 2. Lancer le pipeline
 python pipelines/ingest.py
 python pipelines/clean.py
 python pipelines/llm_validation.py
 
-3. Lancer le dashboard
+### 3. Lancer le dashboard
 streamlit run app/dashboard.py
 
-🌟 Auteur
+## 🌟 Auteur
 
 👤 Wassim Elmoufakkir
 MSc Data Engineering for AI – DSTI
