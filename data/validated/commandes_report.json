@@ -1,0 +1,9 @@
+{
+    "anomalies_detected": {
+        "missing_values": {},
+        "quantite_suspecte": [],
+        "totaux_negatifs": [],
+        "dates_invalides": []
+    },
+    "llm_analysis": "Simulated LLM report:\n- Some quantities are suspicious (0 or negative).\n- Negative totals should be corrected or filtered.\n- Missing dates make it hard to analyse sales over time.\n- In a real pipeline, enforce constraints at source and add validation rules."
+}
