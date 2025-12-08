@@ -23,7 +23,7 @@ def main():
         layout="wide"
     )
 
-    st.title("🧠 AI-Powered E-commerce Data Pipeline")
+    st.title("AI-Powered E-commerce Data Pipeline")
     st.caption("Ingestion → Cleaning → LLM Data Quality → Dashboard")
 
     clients, commandes, produits, report = load_data()
@@ -42,20 +42,20 @@ def main():
     st.markdown("---")
 
     # ===== Ventes dans le temps =====
-    st.subheader("📈 Ventes au fil du temps")
+    st.subheader("Ventes au fil du temps")
     commandes_date = commandes.copy()
     commandes_date["datecommande"] = pd.to_datetime(commandes_date["datecommande"])
     by_date = commandes_date.groupby("datecommande")["total"].sum().reset_index()
     st.line_chart(by_date.set_index("datecommande"))
 
     # ===== Tableau des commandes =====
-    st.subheader("📋 Aperçu des commandes nettoyées")
+    st.subheader("Aperçu des commandes nettoyées")
     st.dataframe(commandes.head(20))
 
     st.markdown("---")
 
     # ===== Anomalies détectées =====
-    st.subheader("⚠️ Anomalies détectées automatiquement")
+    st.subheader("Anomalies détectées automatiquement")
 
     anomalies = report.get("anomalies_detected", {})
     missing = anomalies.get("missing_values", {})
@@ -94,7 +94,7 @@ def main():
     st.markdown("---")
 
     # ===== Analyse LLM =====
-    st.subheader("🤖 Analyse générée par le LLM")
+    st.subheader("Analyse générée par le LLM")
 
     llm_analysis = report.get("llm_analysis", "Aucune analyse disponible.")
     st.text_area("Rapport LLM", llm_analysis, height=250)
