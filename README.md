@@ -1,142 +1,123 @@
-# AI-Powered E-commerce Data Quality Pipeline
+# 🚀 AI-Powered E-commerce Data Quality Pipeline
 
-### Pipeline complet de qualité de données + validation LLM + dashboard analytique
+Un pipeline complet de qualité de données pour e-commerce intégrant validation LLM et dashboard analytique interactif.
 
-### 🔗 Figma (Dashboard + Architecture interactive)
-#### -> https://www.figma.com/make/v0DRrtrvwKEjx9iA1PZjNa/Confetti-Explosion-on-Click?node-id=0-1&p=f&t=FtZFFkbh4LwivS3J-0&fullscreen=1
+[🔗 Figma – Dashboard & Architecture](https://www.figma.com/make/v0DRrtrvwKEjx9iA1PZjNa/Confetti-Explosion-on-Click?node-id=0-1&p=f&t=FtZFFkbh4LwivS3J-0&fullscreen=1)
 
+---
 
 ## 📌 Aperçu du Projet
 
-Ce projet met en place un pipeline de qualité de données moderne pour un site e-commerce, intégrant :
+Ce projet met en place un pipeline moderne de traitement et validation de données e-commerce, incluant :
 
-➡️ Ingestion → Nettoyage → Validation LLM → Dashboard analytique
+- **Ingestion → Nettoyage → Validation LLM → Dashboard analytique**
+- Automatisation du chargement, nettoyage et validation des données clients, produits et commandes
+- Génération d’un **rapport narratif intelligent** grâce à OpenAI GPT-4
+- Visualisation des **KPIs clés** et des anomalies dans un dashboard **Streamlit** moderne
+- Architecture professionnelle documentée sous **Figma**
 
-## Le pipeline :
+---
 
-Charge automatiquement les données brutes (clients, produits, commandes)
 
-Nettoie et standardise les données
+🔗 **Voir l’architecture interactive sur Figma**  
+[👉 Accès Figma](https://www.figma.com/make/v0DRrtrvwKEjx9iA1PZjNa/Confetti-Explosion-on-Click?node-id=0-1&p=f&t=FtZFFkbh4LwivS3J-0&fullscreen=1)
 
-Détecte les anomalies via règles Python
-
-Génère un rapport narratif intelligent via un LLM (OpenAI GPT-4)
-
-Affiche les métriques, KPIs et visualisations dans un dashboard Streamlit moderne
-
-Fournit une architecture professionnelle (documentée dans Figma)
-
-Ce projet démontre des compétences en Data Engineering, LLM appliqué, analyse métier, automatisation et visualisation avancée.
-
-## Architecture du Pipeline
-
-🔗 Voir l’architecture détaillée sur Figma
--> https://www.figma.com/make/v0DRrtrvwKEjx9iA1PZjNa/Confetti-Explosion-on-Click?node-id=0-1&p=f&t=FtZFFkbh4LwivS3J-0&fullscreen=1
-
-## Architecture du système :
-
-data/raw : données brutes
-
-pipelines/ingest.py : chargement des CSV
-
-pipelines/clean.py : nettoyage + standardisation
-
-pipelines/llm_validation.py : détection avancée via LLM
-
-data/processed : données nettoyées
-
-data/validated : anomalies + rapport narratif LLM
-
-app/dashboard.py : visualisation Streamlit
+---
 
 ## ✨ Fonctionnalités Clés
+
 ### 📥 1. Ingestion Automatique
-
-Chargement sécurisé des fichiers clients / produits / commandes
-
-Standardisation des types de données
+- Chargement sécurisé des fichiers clients, produits, commandes (CSV)
+- Standardisation des types de données
 
 ### 🧹 2. Nettoyage & Qualité de Données
+- Détection de valeurs manquantes
+- Anomalies de prix, quantités, dates
+- Suppression des outliers et incohérences
+- Génération d’un dataset propre et exploitable
 
-Détection de valeurs manquantes
+### 🤖 3. Validation par LLM (OpenAI GPT-4)
+- Génère automatiquement :
+  - Résumé exécutif
+  - Problèmes détectés
+  - Recommandations
+  - Estimation de l’impact business
 
-Anomalies de prix, quantités, dates
-
-Outliers et montants incohérents
-
-Génération d’un dataset nettoyé exploitable
-
-### 🤖 3. Validation LLM (OpenAI GPT-4)
-
-Le LLM produit automatiquement :
-
-Résumé exécutif
-
-Problèmes identifiés
-
-Recommandations stratégiques
-
-Impact business estimé
-
-### 📌 Exemple :
-
-“Taux de conformité : 94,8%, amélioration de 2,1%.
-47 anomalies détectées, principalement sur quantités et valeurs manquantes.”
+📌 Exemple :  
+> “Taux de conformité : 94,8%, amélioration de 2,1%.  
+> 47 anomalies détectées, principalement sur quantités et valeurs manquantes.”
 
 ### 📊 4. Dashboard Analytique (Streamlit)
+- **KPIs affichés** :
+  - Clients actifs
+  - Commandes totales
+  - Chiffre d’affaires
+  - Taux de conversion
+  - Qualité globale des données
 
-KPIs affichés :
+- **Visualisations** :
+  - Évolution des ventes
+  - Tableau des anomalies détectées
+  - Aperçu des commandes nettoyées
 
-Clients actifs
+🖼️ *Les captures d’écran du dashboard seront automatiquement affichées ici après upload.*
 
-Commandes totales
+---
 
-Chiffre d’affaires
+## ▶️ Comment Exécuter le Projet
 
-Taux de conversion
+### 1. Installer les dépendances
+```bash
+pip install -r requirements.txt
+```
 
-Qualité globale des données
-
-Visualisations :
-
-Évolution des ventes
-
-Tableau des anomalies détectées
-
-Aperçu des commandes nettoyées
-
-
-
+### 2. Lancer le pipeline
+```bash
+python pipelines/ingest.py
+python pipelines/clean.py
+python pipelines/llm_validation.py
+```
+### 3. Démarrer le dashboard
+```bash
+streamlit run app/dashboard.py
+```
 ## 🛠️ Technologies Utilisées
 
 Python 3.10+
 
 Pandas / NumPy
 
-Streamlit
+Streamlit (Dashboard)
 
-OpenAI GPT-4
+OpenAI GPT-4 (Validation & Résumés)
 
-Matplotlib / Plotly
+Matplotlib / Plotly (Visualisation)
 
-Figma (architecture + UI design)
+Figma (Design UI & Architecture technique)
 
-## ▶️ Comment Exécuter le Projet
-### 1. Installer les dépendances
-pip install -r requirements.txt
+##📚 Documentation
 
-### 2. Lancer le pipeline
-python pipelines/ingest.py
-python pipelines/clean.py
-python pipelines/llm_validation.py
+Architecture complète et interface UI sur Figma
 
-### 3. Lancer le dashboard
-streamlit run app/dashboard.py
+Scripts bien commentés dans le dossier pipelines/
 
-## 🌟 Auteur
+Tests unitaires pour chaque étape du pipeline
+
+## 🧪 Exemples de Résultats LLM
+✅ Taux de conformité : 94,8% (+2,1%)
+🚨 47 anomalies détectées :
+ - Quantités incohérentes : 21
+ - Valeurs manquantes : 18
+ - Outliers : 8
+
+## 📈 Recommandation :
+ - Revoir les processus de saisie pour les produits à forte valeur
+ - Implémenter des seuils automatiques pour les quantités critiques
+
+## 🧑‍💻 Auteur
 
 👤 Wassim Elmoufakkir
 
-Linkedin : [https://portfolio-main-five-inky.vercel.app/](https://www.linkedin.com/in/wassim-elmoufakkir/)
+💼 Linkedin : (https://www.linkedin.com/in/wassim-elmoufakkir/)
 
-GitHub : https://github.com/swz-json
+💻 GitHub : @swz-json
