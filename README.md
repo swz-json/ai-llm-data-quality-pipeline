@@ -105,26 +105,7 @@ Tableau des anomalies détectées
 
 Aperçu des commandes nettoyées
 
-### 📷 Aperçu du Dashboard
-(les images dans ton repo seront automatiquement affichées ici après upload)
 
-#  📁 Structure du Projet
-ai-llm-data-quality-pipeline/
-│
-├── app/
-│   └── dashboard.py
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── validated/
-├── pipelines/
-│   ├── ingest.py
-│   ├── clean.py
-│   └── llm_validation.py
-├── test_ingest.py
-├── test_clean.py
-├── test_llm.py
-└── README.md
 
 ## 🛠️ Technologies Utilisées
 
