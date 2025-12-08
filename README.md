@@ -155,7 +155,7 @@ streamlit run app/dashboard.py
 ## 🌟 Auteur
 
 👤 Wassim Elmoufakkir
-MSc Data Engineering for AI – DSTI
-Portfolio : https://portfolio-main-five-inky.vercel.app/
+
+Linkedin : [https://portfolio-main-five-inky.vercel.app/](https://www.linkedin.com/in/wassim-elmoufakkir/)
 
 GitHub : https://github.com/swz-json
