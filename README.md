@@ -60,7 +60,7 @@ Ce projet met en place un pipeline moderne de traitement et validation de donné
   - Tableau des anomalies détectées
   - Aperçu des commandes nettoyées
 
-🖼️ *Les captures d’écran du dashboard seront automatiquement affichées ici après upload.*
+
 
 ---
 
