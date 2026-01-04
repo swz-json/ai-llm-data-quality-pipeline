@@ -1,6 +1,6 @@
 # 🚀 AI‑Powered E‑commerce Data Quality Pipeline
 
-> **Enterprise‑grade data pipeline demonstrating how modern data teams ensure data trust, analytics reliability, and business‑ready insights using automated processing and AI‑assisted validation.**
+ **Enterprise‑grade data pipeline demonstrating how modern data teams ensure data trust, analytics reliability, and business‑ready insights using automated processing and AI‑assisted validation.**
 
 ---
 
@@ -30,12 +30,12 @@ Analytics‑Ready Dataset
 Streamlit Dashboard
 ```
 
-📐 **Interactive architecture & UI design** are documented in Figma:
+ **Interactive architecture & UI design** are documented in Figma:
 👉 *Dashboard & Architecture – Figma link*
 
 ---
 
-## 🎯 Key Objectives
+## Key Objectives
 
 * Ensure **data reliability and consistency** across e‑commerce datasets
 * Detect and explain **data quality issues** before analytics consumption
@@ -44,17 +44,16 @@ Streamlit Dashboard
 
 ---
 
-## ✨ Core Features
+##  Core Features
 
-### 📥 1. Automated Data Ingestion
+###  1. Automated Data Ingestion
 
 * Secure loading of **customers, products, and orders** datasets
 * Schema alignment and data type standardization
 * Designed to be schedulable (batch‑ready)
 
 ---
-
-### 🧹 2. Data Cleaning & Quality Enforcement
+###  2. Data Cleaning & Quality Enforcement
 
 * Detection of missing and invalid values
 * Identification of price, quantity, and date anomalies
@@ -63,7 +62,7 @@ Streamlit Dashboard
 
 ---
 
-### 🤖 3. LLM‑Based Data Validation (OpenAI GPT‑4)
+###  3. LLM‑Based Data Validation (OpenAI GPT‑4)
 
 The LLM automatically generates:
 
@@ -82,7 +81,7 @@ This layer demonstrates how AI can **augment data governance and observability**
 
 ---
 
-### 📊 4. Interactive Analytics Dashboard (Streamlit)
+###  4. Interactive Analytics Dashboard (Streamlit)
 
 **KPIs displayed:**
 
@@ -102,7 +101,7 @@ The dashboard is designed for **data analysts, business stakeholders, and manage
 
 ---
 
-## 📄 Data Schema (Simplified)
+## Data Schema (Simplified)
 
 **Orders**
 
@@ -128,7 +127,7 @@ The dashboard is designed for **data analysts, business stakeholders, and manage
 
 ---
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 
 ### 1️⃣ Install dependencies
 
@@ -152,7 +151,7 @@ streamlit run app/dashboard.py
 
 ---
 
-## 🧪 Testing & Data Quality Assurance
+## Testing & Data Quality Assurance
 
 * Unit tests for ingestion, cleaning, and validation steps
 * Data sanity checks (nulls, ranges, outliers)
@@ -162,7 +161,7 @@ Tests are included to ensure **pipeline robustness and reproducibility**.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Python 3.10+**
 * **Pandas / NumPy** — data processing
@@ -211,7 +210,7 @@ MSc Data Engineering for Artificial Intelligence
 
 ---
 
-## ⭐ Why This Project Matters
+##  Why This Project Matters
 
 My project demonstrates:
 
