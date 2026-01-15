@@ -32,6 +32,8 @@ Streamlit Dashboard
 
  **Interactive architecture & UI design** are documented in Figma:
 👉 *Dashboard & Architecture – Figma link*  -> [🔗 Figma – Dashboard & Architecture](https://www.figma.com/make/v0DRrtrvwKEjx9iA1PZjNa/Confetti-Explosion-on-Click?node-id=0-1&p=f&t=FtZFFkbh4LwivS3J-0&fullscreen=1)
+<img width="1908" height="859" alt="image" src="https://github.com/user-attachments/assets/4192dde1-d506-46d0-9607-02319e5d946e" />
+
 
 
 ---
