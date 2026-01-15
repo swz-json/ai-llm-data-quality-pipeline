@@ -31,7 +31,8 @@ Streamlit Dashboard
 ```
 
  **Interactive architecture & UI design** are documented in Figma:
-👉 *Dashboard & Architecture – Figma link*
+👉 *Dashboard & Architecture – Figma link*  -> [🔗 Figma – Dashboard & Architecture](https://www.figma.com/make/v0DRrtrvwKEjx9iA1PZjNa/Confetti-Explosion-on-Click?node-id=0-1&p=f&t=FtZFFkbh4LwivS3J-0&fullscreen=1)
+
 
 ---
 
@@ -168,8 +169,7 @@ Tests are included to ensure **pipeline robustness and reproducibility**.
 * **Streamlit** — analytics dashboard
 * **OpenAI GPT‑4** — data quality validation & narrative reporting
 * **Matplotlib / Plotly** — visualizations
-* **Figma** — architecture & UI documentation -> [🔗 Figma – Dashboard & Architecture](https://www.figma.com/make/v0DRrtrvwKEjx9iA1PZjNa/Confetti-Explosion-on-Click?node-id=0-1&p=f&t=FtZFFkbh4LwivS3J-0&fullscreen=1)
-
+* **Figma** — architecture & UI documentation ->  
 ---
 
 ## Production‑Ready Design (Conceptual)
