@@ -1,10 +1,10 @@
-# 🚀 AI‑Powered E‑commerce Data Quality Pipeline
+#  AI‑Powered E‑commerce Data Quality Pipeline
 
  **Enterprise‑grade data pipeline demonstrating how modern data teams ensure data trust, analytics reliability, and business‑ready insights using automated processing and AI‑assisted validation.**
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project implements an **end‑to‑end data quality and analytics pipeline** for an e‑commerce use case. It simulates how real‑world data engineering teams ingest raw operational data, clean and validate it at scale, enrich it with AI‑based reasoning, and expose actionable insights through an interactive dashboard.
 
@@ -12,7 +12,7 @@ The pipeline goes beyond traditional rule‑based checks by integrating a **Larg
 
 ---
 
-## 🏗️ High‑Level Architecture
+##  High‑Level Architecture
 
 ```
 Raw Data (CSV / API)
@@ -129,13 +129,13 @@ The dashboard is designed for **data analysts, business stakeholders, and manage
 
 ##  How to Run the Project
 
-### 1️⃣ Install dependencies
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2️⃣ Execute the pipeline
+### Execute the pipeline
 
 ```bash
 python pipelines/ingest.py
@@ -143,7 +143,7 @@ python pipelines/clean.py
 python pipelines/llm_validation.py
 ```
 
-### 3️⃣ Launch the dashboard
+###  Launch the dashboard
 
 ```bash
 streamlit run app/dashboard.py
@@ -172,7 +172,7 @@ Tests are included to ensure **pipeline robustness and reproducibility**.
 
 ---
 
-## 🏗️ Production‑Ready Design (Conceptual)
+## Production‑Ready Design (Conceptual)
 
 While this repository runs locally, it is designed with production extension in mind:
 
